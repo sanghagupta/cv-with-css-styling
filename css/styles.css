@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+  background-color: #f3d1f4;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: Sacramento, serif;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: Montserra, serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Montserrat, serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: Montserra, serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p {
+  color: #66BFBF;
+  font-weight: 900;
+  line-height: 2;
+}
+
+.hr {
+  border-style: none;
+  height: 0px;
+  width: 10%;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  margin: 80px auto 80px auto;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 80px auto 80px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-list {
+  color: #66BFBF;
+  clear: left;
+}
+
+.momo-challenge-text {
+  clear: right;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mountainImg {
+  width: 25%;
+}
+
+.momos-img {
+  width: 15%;
+  height: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+.top_container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 16px auto 0;
+  padding: 20px 0 0 0;
+}
+
+.intro {
+  margin: auto auto 80px auto;
+  width: 30%;
+}
+
+.footer-link {
+
+}
+
+.topMargin {
+  margin: 80px auto auto auto;
+}
+
+.bottomMargin {
+  margin: auto auto 80px auto;
+}
+
+.topBottomMargin {
+  margin: 80px auto 80px auto;
+}
+
+.contact-message {
+  margin: 80px auto 80px auto;
+  width: 40%
+}
+
+.btn {
+  background-color: #11CDD4;
+  background: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #000000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #99C624 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
